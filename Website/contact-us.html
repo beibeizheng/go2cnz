@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us | GO2C NEW ZEALAND</title>
+	<link rel="stylesheet" href="css/stylesheet-one.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/javascript.js"></script>
+</head>
+<body>
+	<header>
+        <img id="logo" src="images/logo.png" alt="GO2C New Zealand Logo">
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" >HOME</a>
+			<div class="dropdown">
+			  	<button class="dropbtn">ISLANDS <i class="fa fa-caret-down"></i></button>
+			  	<div class="dropdown-content">
+					<a href="https://en.wikipedia.org/wiki/North_Island">NORTH ISLAND</a>
+					<a href="https://en.wikipedia.org/wiki/South_Island">SOUTH ISLAND</a>
+					<div class="dropdown1">
+						<button class="dropbtn1"><a href="stewart-island.html">STEWART ISLAND
+							<i class="fa fa-caret-right"></i></a> 
+						</button>
+						<div class="dropright-content">
+							<a href="oban.html">OBAN</a>
+							<a href="activities.html">ACTIVITIES</a>
+							<a href="food-drink.html">FOOD & DRINK</a>
+							<a href="places-to-stay.html">PLACES TO STAY</a>
+						</div>
+					</div>
+					<a href="https://www.newzealand.com/nz/other-islands/" style="margin-bottom: 0;">OTHER ISLAND</a> 
+				</div> 
+		 	</div>
+		  	<a href="deal-of-the-week.html">DEAL OF THE WEEK</a>
+		  	<a href="contact-us.html" class="active">CONTACT US</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</div>
+		<div class="search">
+			<form action="/action_page.php">
+				<input type="text" placeholder="SEARCH..." name="search"><a type="submit"><i class="fa fa-search"></i></a>
+			</form>
+	    </div>
+    </header>
+
+	<main>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="images/homepage1.jpg" style="width:100%" alt="Snowy Mountains and Lupins">
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/homepage2.jpeg" style="width:100%" alt="Snowy Mountains and Road">
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/homepage3.jpeg" style="width:100%" alt="Queenstown Night View">
+			</div>
+
+			<div class="text">NEW ZEALAND</div>
+			
+			<div class='doot'>
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+		</div>
+		<script>showSlides(1);</script>
+		<div class='contact-main'>
+			<div class='contact-information'>
+				<p class="contact-h2">INFORMATION OF CONTACT</p>
+				<p>We are a company that encourages people to support others in their communities. 
+				This website has been created to encourage New Zealanders to get out and explore 
+				their country and support New Zealand businesses.</p>
+				<div class='address'>
+					<h3>ADDRESS</h3>
+					<p>Address: 11 Gill Street, New Plymouth 4310, New Zealand</p>
+					<p>Mail : GO2CNZ@travel.com</p>
+					<p>Phone : 012-345-6789</p>
+				</div>
+			</div>
+			<div class='form'>
+				<p class="contact-h2">GET IN TOUCH</p>
+				<div class="container">
+					<form method="POST" action="mailto:GO2CNZ@travel.com">
+						<label for="name" class="required">Full Name</label>
+						<input type="text" id="name" name="name" placeholder="Your name.."  required>
+					
+						<label for="email"class="required">Email</label>
+						<input id='email' type="email" placeholder="Your email..." name="email" required>
+					
+						<label for="country">Country</label>
+						<input type="text" id="country" name="country" placeholder="Your country..">
+					
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" placeholder="Subject..">
+						
+						<label for="message" class="required">Message</label>
+						<textarea id="message" name="message" placeholder="Write something.." style="height:200px"  required></textarea>
+						<div class='buttom'>
+							<input type="reset" value="Clear">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>	
+	
+	<footer class='contact-footer'>
+		<div class='last'>
+			<a href="index.html">Home</a>
+			<a href="#">Terms of use</a>
+			<a href="#">Privacy Policy</a>
+		</div>
+		<p class="copyright">© 2021 GO2C New Zealand. All rights reserved.</p>
+	</footer>	
+
+</body>
+</html>

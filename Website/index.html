@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GO2C NEW ZEALAND</title>
+	<link rel="stylesheet" href="css/stylesheet-one.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/javascript.js"></script>
+</head>
+<body>
+	<header>
+        <img id="logo" src="images/logo.png" alt="GO2C New Zealand Logo">
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" class="active">HOME</a>
+			<div class="dropdown">
+			  	<button class="dropbtn">ISLANDS <i class="fa fa-caret-down"></i></button>
+			  	<div class="dropdown-content">
+					<a href="https://en.wikipedia.org/wiki/North_Island">NORTH ISLAND</a>
+					<a href="https://en.wikipedia.org/wiki/South_Island">SOUTH ISLAND</a>
+					<div class="dropdown1">
+						<button class="dropbtn1"><a href="stewart-island.html">STEWART ISLAND
+						<i class="fa fa-caret-right"></i></a> 
+						</button>
+						<div class="dropright-content">
+							<a href="oban.html">OBAN</a>
+							<a href="activities.html">ACTIVITIES</a>
+							<a href="food-drink.html">FOOD & DRINK</a>
+							<a href="places-to-stay.html">PLACES TO STAY</a>
+						</div>
+			  		</div>
+					<a href="https://www.newzealand.com/nz/other-islands/">OTHER ISLAND</a> 
+				</div> 
+		 	</div>
+		  	<a href="deal-of-the-week.html">DEAL OF THE WEEK</a>
+		  	<a href="contact-us.html">CONTACT US</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</div>
+		<div class="search">
+			<form action="/action_page.php">
+				<input type="text" placeholder="SEARCH..." name="search"><a type="submit"><i class="fa fa-search"></i></a>
+			</form>
+	    </div>
+    </header>
+
+	<main>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="images/homepage1.jpg" style="width:100%" alt="Snowy Mountains and Lupins">
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/homepage2.jpeg" style="width:100%" alt="Snowy Mountains and Road">
+			</div>
+			<div class="mySlides fade">
+				<img src="images/homepage3.jpeg" style="width:100%" alt="Queenstown Night View">
+			</div>
+			<div class="text">NEW ZEALAND</div>
+			
+			<div class='doot'>
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+		</div>
+		<script>showSlides(1);</script>
+			
+		<h1>Welcome to New Zealand</h1>
+		<p class='main'>
+			New Zealand is known as "the purest country in the world" and one of the most worthwhile travel 
+			countries, where there is no shortage of natural oxygen bars, with the mountains as a companion and the water 
+			as a dance, this is the most essential look after taking off the pomp and circumstance.
+			When you visit New Zealand, you can see golden plains, standing peaks, magnificent 
+			valleys, open and fairy-like landscapes of the Middle Kingdom, New Zealand's mysterious 
+			and enchanting secret landscapes are renowned worldwide, as well as countless animals 
+			and colourful extreme sports. It consists of two main land masses - the North Island and the 
+			South Island - as well as <a class="stewart" href="stewart-island.html">Stewart Island</a> and over 700 other smaller islands.</p>
+
+		<div class='background'>
+			<h2 class='gallery'>Our Gallery</h2>
+			<div class="row">
+				<div class="column">
+					<img src="images/home/gallery1.jpg" class="hover-shadow cursor"alt="Quay View">
+				</div>
+				<div class="column">
+					<img src="images/home/gallery2.jpg"  class="hover-shadow cursor" alt="The beach at sunset">
+				</div>
+				<div class="column">
+					<img src="images/home/gallery3.jpg" class="hover-shadow cursor"alt="Snow mountains and lakes">  
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="images/home/gallery4.jpg"  class="hover-shadow cursor" alt="Snowy Mountains in Queenstown">
+				</div>
+				<div class="column">
+					<img src="images/home/gallery5.jpg" class="hover-shadow cursor" alt="Auckland's Sky Tower">
+				</div>
+				<div class="column">
+					<img src="images/home/gallery6.jpg"  class="hover-shadow cursor" alt="Night view of Queenstown on the sky line">  
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<h2>THANKS FOR VISITING US</h2>
+		<hr class="new">
+		<div class="shell">
+			<div class="contact">
+				<h3>Contact Information</h3>
+				<p><a class='icon-bar'><i class="fa fa-home"></i></a>11 Gill Street, New Plymouth 4310, New Zealand</p>
+				<p><a class='icon-bar'><i class="fa fa-phone"></i></a>012-345-6789</p>
+				<p><a class='icon-bar'><i class="fa fa-envelope"></i></a>Contact: Jamie Parker</p>
+			</div>
+			<div class="information">
+				<h3>Newsletter</h3>
+				<p>Register to our newsletter and be updated with the latest 
+					information and much more.</p>
+				<form method="POST" action="mailto:GO2CNZ@travel.com">
+					<div class='letterform'>
+						<input id='email' type="email" placeholder="Email *" name="email" required>
+						<input type="text" placeholder="Your Name *" name="name" required>
+					</div>	  
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="supportus">
+				<h3>Support Us</h3>
+				<p>Follow our social media account to get our news.</p>
+				<div class='icon'>
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-youtube"></a>
+				</div>
+			
+			
+			</div>
+		</div>
+		<p class="copyright">© 2021 GO2C New Zealand. All rights reserved.</p>
+	</footer>	
+</body>
+</html>

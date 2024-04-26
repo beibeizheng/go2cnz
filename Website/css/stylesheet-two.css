@@ -1,0 +1,1020 @@
+/* RESET */
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+a,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  /* Cancel out some differences between browser defaults */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+* {
+  /* The width of an element will be the size of its border box,
+       not its content box (which is the normal default). */
+  box-sizing: border-box;
+}
+
+/* DEFAULT LAYOUT IS A WIDE SCREEN */
+
+/* ===========  PADDING AND MARGINS  ========= */
+
+/* Header */
+header {
+  padding: 0 1em;
+}
+
+.search {
+  margin: auto;
+}
+
+.search input[type="text"] {
+  padding-left: 10px;
+}
+
+.search form {
+  margin: 4px 0;
+}
+
+/*  NAVIGATION */
+.topnav {
+  padding: 1em 0;
+}
+
+.float-right {
+  padding-top: 1em;
+}
+
+.topnav a {
+  padding: 12px;
+  margin-right: 1em;
+}
+
+/*  MAIN PART */
+
+/* oban page */
+h2 {
+  padding: 1em 0;
+}
+h1 {
+  padding-top: 2em;
+}
+
+.portfolio,
+.slideshow-container {
+  margin: auto;
+}
+
+.nav {
+  padding: 1em;
+}
+
+.arrow {
+  padding: 3px;
+  margin: 0 8px;
+}
+
+.word {
+  padding: 1em 4em;
+  line-height: 200%;
+}
+
+.column {
+  padding: 1em;
+}
+
+.line {
+  border: none;
+  margin: auto;
+}
+table {
+  margin: 0 1em 1em 1em;
+}
+
+th,
+td {
+  padding: 16px;
+}
+
+.weather {
+  padding-bottom: 2em;
+}
+
+/* activities page */
+.article {
+  padding: 1em 0;
+}
+
+.description {
+  margin: auto;
+}
+
+video {
+  padding: 1em 0;
+}
+.view {
+  padding-bottom: 1em;
+}
+.title-line {
+  margin-top: 2em;
+}
+
+/* food & drink page */
+.layout-view {
+  padding: 1em;
+}
+
+.but {
+  padding: 10px 15px;
+  margin-top: 1em;
+}
+
+.details {
+  padding-bottom: 2em;
+}
+
+/* places to stay page */
+
+.lodge {
+  padding: 1em;
+  margin: auto;
+}
+
+.subtitle {
+  padding-bottom: 1em;
+}
+
+/*  FOOTER */
+.footer-title {
+  padding-top: 1em;
+}
+.icon-bar {
+  padding: 1em 0.5em 0 0;
+}
+
+.information,
+.supportus,
+.contact {
+  padding: 1em 2em;
+}
+
+.copyright {
+  padding: 1em 5em 2em 5em;
+}
+
+.information input[type="text"],
+.information input[type="email"],
+input[type="submit"] {
+  padding: 12px;
+}
+.letterform input[type="text"],
+.information input[type="email"] {
+  margin: 8px 0;
+}
+
+.supportus .fa {
+  /* Style Social Media icons */
+  padding: 10px;
+  text-align: center;
+  margin: 6px 2px;
+}
+.letterform {
+  padding: 1em 0;
+}
+
+.icon {
+  padding-top: 1em;
+}
+
+h3 {
+  padding: 0;
+}
+
+/* ===========  TYPOGRAPHY ================== */
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+/* HEADER */
+.search input[type="text"] {
+  font-size: 14px;
+}
+
+.search a {
+  font-size: 17px;
+}
+
+/*  NAVIGATION */
+.float-right {
+  float: right;
+  padding-top: 1em;
+}
+
+.topnav a {
+  font-size: 14px;
+}
+
+/*  MAIN PART */
+
+/* oban page */
+h2 {
+  font-style: italic;
+}
+.text {
+  font-size: 3em;
+  font-family: Impact, Helvetica, sans-serif;
+}
+
+.top-left a {
+  font-size: 14px;
+}
+
+.word {
+  font-size: 18px;
+}
+.line,
+.title-line {
+  font-style: italic;
+}
+
+/* activities page */
+
+.title-line div {
+  font-size: 30px;
+}
+
+/* food & drink page */
+.but {
+  font-size: 14px;
+}
+
+/* places to stay page */
+
+.subtitle {
+  font-size: 22px;
+  font-style: italic;
+}
+
+/*  FOOTER */
+.footer-title {
+  font-size: 24px;
+}
+
+.icon-bar {
+  font-size: 25px;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+.supportus .fa {
+  /* Style Social Media icons */
+  font-size: 15px;
+}
+
+/* ===========  COLOUR SCHEME  ===========  */
+/* HEADER */
+header {
+  background-color: #ff6600;
+}
+
+.search input[type="text"] {
+  background: none;
+  color: #777;
+}
+
+.search {
+  background-color: #f0bb98;
+}
+.search .fa {
+  color: #ff6600;
+}
+
+/*  NAVIGATION */
+
+.topnav a {
+  color: grey;
+}
+
+.topnav a:hover,
+.topnav a.active {
+  background-color: #ff6600;
+  color: white;
+}
+
+/* MAIN PART */
+
+/* oban page */
+.top-left a,
+.text {
+  color: white;
+}
+
+.line,
+.title-line {
+  color: rgb(109, 106, 106);
+}
+.line div:before,
+.line div:after {
+  background: darkgray;
+}
+
+th {
+  background: #ff6600;
+}
+
+/* activities page */
+
+.title-line div:before,
+.title-line div:after {
+  background: darkgray;
+}
+
+/* food & drink page */
+
+.button1 {
+  background-color: #ff6600;
+}
+.sky {
+  color: white;
+}
+
+/* places to stay page */
+
+.sky1 {
+  color: black;
+}
+
+.botton2 {
+  background-color: grey;
+}
+
+/* FOOTER */
+footer {
+  background-color: #ebebeb;
+}
+
+.icon-bar {
+  color: #ff6600;
+}
+
+input[type="submit"] {
+  background-color: #ff6600;
+  color: white;
+}
+
+.fa-facebook {
+  /* The color of social media icon */
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* ===========  LAYOUT  ===========  */
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search input[type="text"] {
+  border: none;
+}
+
+.search {
+  width: 9em;
+  border-radius: 10px;
+  border: none;
+  display: inline-block;
+  height: 2em;
+}
+
+.search input[type="text"] {
+  outline: none;
+  width: 80%;
+  -webkit-appearance: none;
+}
+
+/*  NAVIGATION */
+
+.topnav {
+  overflow: hidden;
+}
+
+.float-right {
+  float: right;
+}
+
+.topnav a {
+  text-align: center;
+  text-decoration: none;
+}
+.topnav .icon {
+  display: none;
+}
+
+span .search,
+.span-search {
+  display: none;
+}
+
+/*  MAIN PART */
+
+/* oban page */
+h1,
+h2 {
+  text-align: center;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+
+.nav,
+.slideshow-container img {
+  width: 100%;
+}
+
+.top-left a {
+  text-decoration: none;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 3px;
+}
+.top-text {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.column {
+  width: 33.33%;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+}
+
+.line {
+  max-width: 80%;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  position: relative;
+}
+.line div:before,
+.line div:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  top: 50%;
+  width: 15%;
+}
+
+.line div:before {
+  left: 2px;
+}
+.line div:after {
+  right: 2px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 40%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  border: 1px solid #ff6600;
+}
+td {
+  text-align: left;
+}
+
+th {
+  width: 30%;
+}
+.season {
+  display: flex;
+  justify-content: space-evenly;
+}
+.top-left a:hover {
+  opacity: 0.7;
+}
+
+.top-text {
+  display: none;
+}
+
+/* activities page */
+.title-line {
+  text-align: center;
+  border: none;
+  position: relative;
+}
+
+.title-line div:before,
+.title-line div:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  top: 50%;
+  width: 15%;
+}
+
+.title-line div:before {
+  left: 3em;
+}
+.title-line div:after {
+  right: 3em;
+}
+
+.view,
+.layout-view {
+  display: block;
+  width: 50%;
+  line-height: 200%;
+  text-align: center;
+}
+
+.article {
+  display: flex;
+}
+
+.description {
+  width: 60%;
+}
+.video-layout {
+  text-align: center;
+}
+video {
+  text-align: center;
+  width: 80%;
+}
+
+/* food & drink page */
+.but {
+  border: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button1:hover {
+  opacity: 0.7;
+}
+
+.button1 a {
+  text-decoration: none;
+}
+
+.details {
+  display: flex;
+}
+
+/* places to stay page */
+.but a {
+  text-decoration: none;
+}
+
+.lodge-description {
+  width: 50%;
+}
+
+.lodge {
+  display: flex;
+  width: 80%;
+  line-height: 200%;
+}
+
+.button2:hover {
+  opacity: 0.7;
+}
+
+/*  FOOTER */
+.footer-title {
+  text-align: center;
+}
+hr.new {
+  border: 3px solid #ff6600;
+  border-radius: 5px;
+  width: 10%;
+}
+
+.shell {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 200%;
+}
+.information,
+.supportus,
+.contact {
+  width: 33%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+}
+
+input[type="submit"] {
+  border: none;
+  width: 30%;
+}
+
+.supportus .fa {
+  /* Style Social Media icons */
+  width: 35px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+input[type="submit"]:hover,
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* ===========  IMAGES ===========  */
+
+span > img {
+  float: left;
+}
+.topnav > img {
+  margin-left: 2em;
+  width: 30%;
+}
+
+/* oban page */
+.column > img {
+  width: 100%;
+}
+th > img {
+  width: 60%;
+}
+
+/* activities page */
+.view > img {
+  width: 60%;
+}
+
+/* food & drink page */
+.layout-view > img {
+  width: 80%;
+  padding-right: 1em;
+}
+
+/* places to stay page */
+.lodge > img {
+  width: 50%;
+  padding-right: 1em;
+}
+
+@media screen and (max-width: 60em) {
+  /* When the screen is less than 60em wide, hide all links. 
+  Show the link that contains should open and close the topnav (.icon) */
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav {
+    position: relative;
+    padding: 1em 0 0 0;
+  }
+
+  .topnav a.icon {
+    display: block;
+    background-color: #ff6600;
+    color: white;
+    line-height: 20px;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1;
+    border-radius: 5px;
+    margin-right: 0;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  /* The "responsive" class is added to the topnav 
+with JavaScript when the user clicks on the icon.  */
+
+  /* ===========  PADDING AND MARGINS  ========= */
+
+  /*  NAVIGATION */
+  .float-right {
+    padding-top: 0;
+  }
+
+  .topnav {
+    padding: 0;
+  }
+
+  .topnav.responsive a {
+    margin-right: 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  /*  MAIN PART */
+
+  /* oban page */
+  .column {
+    margin: auto;
+  }
+
+  table {
+    margin: 1em auto;
+  }
+
+  .arrow {
+    padding: 3px;
+    margin: 0 8px;
+  }
+
+  /* places to stay page */
+  .but {
+    padding: 8px;
+    margin: 1em 2px 0 2px;
+  }
+
+  /*  FOOTER */
+  .letterform,
+  .contact {
+    margin: auto;
+  }
+
+  .supportus {
+    padding-bottom: 0;
+  }
+
+  /* ===========  TYPOGRAPHY ================== */
+
+  /*  MAIN PART */
+
+  /* oban page */
+  .text {
+    font-size: 2em;
+  }
+
+  /* food & drink page */
+  .title-line div {
+    font-size: 22px;
+  }
+
+  /* places to stay page */
+
+  .subtitle {
+    font-size: 16px;
+  }
+  .but {
+    font-size: 12px;
+  }
+
+  /* ===========  COLOUR SCHEME  ===========  */
+
+  /*  NAVIGATION */
+
+  .float-right {
+    background-color: #ebebeb;
+  }
+  .search {
+    background-color: white;
+  }
+
+  /* ===========  LAYOUT  ===========  */
+
+  /*  NAVIGATION */
+
+  header {
+    display: none;
+  }
+
+  .topnav.responsive {
+    position: relative;
+    width: 100%;
+  }
+  .topnav.responsive a {
+    display: block;
+    text-align: left;
+  }
+
+  .float-right {
+    float: none;
+  }
+  .search input[type="submit"] {
+    height: 13px;
+    border: none;
+    width: 15%;
+    outline: none;
+    vertical-align: middle;
+    float: right;
+  }
+
+  .search {
+    border: 2px solid #ff6600;
+    position: absolute;
+    top: 1.5em;
+    right: 8em;
+  }
+
+  span .search,
+  .span-search {
+    display: block;
+  }
+  .header-search {
+    display: none;
+  }
+
+  /*  MAIN PART */
+
+  /* oban page */
+  .word {
+    text-align: center;
+  }
+
+  .portfolio {
+    display: block;
+  }
+  .column {
+    width: 80%;
+  }
+
+  .season {
+    display: block;
+    width: 100%;
+  }
+
+  table {
+    width: 80%;
+  }
+
+  .arrow {
+    border: solid #ff6600;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+  }
+
+  .top-text {
+    display: block;
+  }
+
+  /* activities page */
+  .title-line div:before {
+    left: 1.5em;
+  }
+  .title-line div:after {
+    right: 1.5em;
+  }
+
+  .view,
+  .layout-view {
+    width: 100%;
+  }
+
+  .article {
+    display: block;
+  }
+
+  /* food & drink page */
+  .details {
+    display: block;
+  }
+
+  /* places to stay page */
+  .lodge {
+    display: flex;
+    width: 90%;
+    line-height: 150%;
+  }
+
+  /*  FOOTER */
+
+  .shell {
+    display: inherit;
+    justify-content: center;
+  }
+
+  .contact {
+    width: 60%;
+  }
+
+  .contact h3,
+  .copyright {
+    text-align: center;
+  }
+
+  .information,
+  .supportus {
+    width: 100%;
+    text-align: center;
+  }
+
+  .letterform {
+    max-width: 60%;
+  }
+
+  /* ===========  IMAGES ===========  */
+
+  .topnav > img {
+    width: 35%;
+    padding: 1em 0;
+  }
+
+  /* oban page */
+  .column > img {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  th > img {
+    width: 50%;
+  }
+}
