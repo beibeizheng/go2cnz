@@ -1,4 +1,4 @@
-## Open the index.html as home page.
+# Open the index.html as home page.
 From the nav bar jump to different page.
 
 Content of the main page：
