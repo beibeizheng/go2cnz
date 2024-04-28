@@ -1,7 +1,8 @@
 ## Open the index.html as home page.
-- From the nav bar jump to different page.
 
--Content of the main page：
+From the nav bar jump to different page.
+
+- Content of the main page：
 <img width="1237" alt="image" src="https://github.com/beibeizheng/go2cnz/assets/92712957/634a7217-7901-4ac1-a14f-dc017967734b">
 
 - The Stewart Island Page
